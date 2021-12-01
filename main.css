@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    --headerColor:#002347;
+    --loginBoxColor: #023047;
+    --loginText:#707070;
+}
+
+body{
+    padding-top: 8vh ;
+}
+.header{
+    background-color: #002347;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 5%;
+}
+.header .logo {
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+}
+
+.header .logo img{
+    height: 100%;
+    width: 100%;
+    margin-right: 10px;
+}
+
+.header .qcu h1{
+    letter-spacing: 2px;
+    font-size: 25px;
+    color: white;
+}
+
+.header .qcu h1 span{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+main{
+    height: 92vh;
+    width: 100%;
+    background-color: green;
+}
+
+.main .headerSection{
+    text-align: center;
+}
+
+.main .stud-prof{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+footer{
+    width: 100%;
+    height: max-content;
+    background: var(--titleText);
+  }
+  
+  footer .payment-footer{
+    height: max-content;
+    padding: 5px 0;
+    background: #002347;
+    text-align: center;
+  }
+  
+  footer .payment-footer h2{
+    color: var(--titleText);
+  }
+  
+  
+  
+  footer .footer-primary{
+    display: flex;
+    padding: 2% 10%;
+    background: #002347;
+    color: white;
+    
+  }
+  
+  footer .footer-primary .footer-info{
+    width: 100%;
+    padding: 0 5%;
+  }
+  footer .footer-primary ul{
+    line-height: 32px;
+    
+  }
+  footer .footer-primary ul li{
+    list-style: none;
+    margin: 10px 0;
+  }
+  
+  footer .footer-primary ul li a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items:center;
+  }
+  footer .footer-primary ul li a img{
+    width: 30px;
+    margin-right: 7px;
+  }

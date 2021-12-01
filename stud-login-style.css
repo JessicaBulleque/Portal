@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    --headerColor:#002347;
+    --loginBoxColor: #023047;
+    --loginText:#707070;
+}
+
+
+.header{
+    background-color: #002347;
+    height: 8vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    padding: 0 5%;
+}
+.header .logo {
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+}
+
+.header .logo img{
+    height: 100%;
+    width: 100%;
+    margin-right: 10px;
+}
+
+.header .qcu h1{
+    letter-spacing: 2px;
+    font-size: 25px;
+    color: white;
+}
+
+.header .qcu h1 span{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+
+
+
+
+
+
+
+
+/*LOGIN CONTAINER*/
+.container{
+    width: 100vw;
+    height: 92vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .login-box{
+    display: flex;
+    align-items: center;
+    width: 60vw;
+    height: 30vw;
+    background-color:var(--loginBoxColor);
+    border-radius: 5px;
+}
+
+.container .login-box section h2{
+    font-weight: normal;
+}
+
+
+.container .login-box section{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container .login-box section img{
+    margin-bottom: 2%;
+}
+
+
+.container .login-box section:first-child{
+    border-right: 2px solid white;
+    color: white;
+}
+
+.container .login-box section .login-container{
+    position: relative;
+    width: 85%;
+    height: 78%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10%;
+    padding-top: 13%;
+    text-align: left;
+}
+
+.container .login-box section .login-container h2{
+    font-weight: normal;
+    font-size: 1.2em;
+    color: var(--loginText);
+    margin-bottom: 15px;
+}
+
+.container .login-box section .login-container img{
+    position: absolute;
+    top: -10%;
+    transform: translateX(-50%);
+    height: 90px;
+    width: 88px;
+    left: 50%;
+}
+
+.container .login-box section .login-container label{
+    font-size: 1em;
+    color: var(--loginText);
+    display: block;
+    margin-top: 10px;
+}
+
+.container .login-box section .login-container input{
+    width: 100%;
+    padding: 1px 5px;
+    font-size: 1em;
+    background: none;
+    border:none;
+    outline: none;
+    border-bottom: 2px solid var(--loginText);
+    color: var(--loginText);
+    text-align: center;
+}
+
+.container .login-box section .login-container input[type = "checkbox"]{
+    text-align: left;
+    width: auto;
+}
+
+.container .login-box section .login-container .rm{
+    display: inline;
+    font-size: .9em;
+}
+
+
+.container .login-box section .login-container input[type = "submit"]{
+    border: none;
+    background-color:#00AC17 ;
+    color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 1.4em;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.container .login-box section .login-container input[type = "submit"]:hover{
+    background-color: #039216 ;
+    transition: ease-in-out .3s;
+}
+
+.container .login-box section .login-container p{
+    font-size: .8em;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*REGISTER CONTAINER*/
+.container{
+    width: 100vw;
+    height: 92vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .register-box{
+    display: flex;
+    align-items: center;
+    width: 60vw;
+    height: 30vw;
+    background-color:var(--loginBoxColor);
+    border-radius: 5px;
+}
+
+.container .register-box section h2{
+    font-weight: normal;
+    color: white;
+}
+
+
+.container .register-box section{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container .register-box section img{
+    margin-bottom: 2%;
+}
+
+
+.container .register-box section:first-child{
+    border-right: 2px solid white;
+    color: black;
+}
+
+.container .register-box section .login-container{
+    position: relative;
+    width: 85%;
+    height: 75%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10%;
+    padding-top: 14%;
+    text-align: left;
+}
+
+.container .register-box section .login-container h2{
+    font-weight: normal;
+    font-size: 1.2em;
+    color: var(--loginText);
+    margin-bottom: 15px;
+}
+
+.container .register-box section .login-container img{
+    position: absolute;
+    top: -10%;
+    transform: translateX(-50%);
+    height: 90px;
+    width: 88px;
+    left: 50%;
+}
+
+.container .register-box section .login-container label{
+    font-size: 1em;
+    color: var(--loginText);
+    display: block;
+    margin-top: 10px;
+}
+
+.container .register-box section .login-container input{
+    width: 100%;
+    padding: 1px 5px;
+    font-size: 1em;
+    background: none;
+    border:none;
+    outline: none;
+    border-bottom: 2px solid var(--loginText);
+    color: var(--loginText);
+    text-align: center;
+}
+
+.container .register-box section .login-container input[type = "checkbox"]{
+    text-align: left;
+    width: auto;
+}
+
+.container .register-box section .login-container .rm{
+    display: inline;
+    font-size: .9em;
+}
+
+
+.container .register-box section .login-container input[type = "submit"]{
+    border: none;
+    background-color:#00AC17 ;
+    color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 1.4em;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.container .register-box section .login-container input[type = "submit"]:hover{
+    background-color: #039216 ;
+    transition: ease-in-out .3s;
+}
+
+.container .register-box section .login-container p{
+    font-size: .8em;
+    text-align: center;
+}
